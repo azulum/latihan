@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Josefin+Sans:ital,wght@0,100;0,500;1,500&family=Roboto+Mono:ital,wght@0,100;0,500;1,100&family=Roboto+Slab:wght@100&display=swap');
+body{
+    font-family: "Akaya Telivigala";
+    background-image: url("https://images.pexels.com/photos/6331086/pexels-photo-6331086.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    
+.navbar{
+    list-style: none;
+    text-align: center;
+}
+.navbar > li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    background-color:hotpink;
+    color:white;
+    transition: 0.2s;
+}
+
+p{
+    border: 1px solid tomato;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+h1{
+    cursor: grab;
+}
+p{
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    
+}
